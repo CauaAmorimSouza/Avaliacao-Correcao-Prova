@@ -1,4 +1,4 @@
-
+import React from 'react'
 function Evento({titulo, descricao, horario, local}){
     return(
         <section className="Evento">

@@ -1,7 +1,8 @@
 import './App.css'
-import Evento from './components/Evento'
+import Evento from './components/Evento.jsx'
+import Galeria from './components/Galeria.jsx'
 
-function app() {
+function App() {
   return(
     <>
     <Evento
@@ -10,7 +11,9 @@ function app() {
     horario={"29/04/2024 as 11 horas"}
     local={"Senai São José"}
     />
+    <Galeria />
     </>
-   
   )
 }
+
+export default App
