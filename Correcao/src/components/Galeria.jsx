@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Galeria(){
     return(
         <div className="Galeria">
